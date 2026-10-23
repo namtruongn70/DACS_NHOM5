@@ -25,6 +25,11 @@ Mở tool Deep-Live-Cam.
 Bấm Start để phần mềm tự động thay mặt bạn thành mặt người đó và xuất ra một Video FAKE hoàn chỉnh.
 
 Chọn video qua giao diện: Sử dụng script Python tích hợp Tkinter để mở cửa sổ chọn file video từ ổ đĩa máy tính một cách trực quan.
+<img width="357" height="237" alt="{1A20AA74-06BE-4738-85C3-883C4520A332}" src="https://github.com/user-attachments/assets/bddefe48-4621-4522-87db-cb5829b824de" />
+<img width="795" height="632" alt="{C1877B49-1351-4EA0-BE6C-D34E9D9037E0}" src="https://github.com/user-attachments/assets/e07b0402-ba7c-40be-988d-7d00b4664791" />
+<img width="795" height="846" alt="{744A4657-F94F-4A64-B001-DA506BAFA1CE}" src="https://github.com/user-attachments/assets/d1f7d89c-fa25-4cd2-9c2d-1d6157dc9547" />
+
+<img width="1118" height="131" alt="{0975481A-3FA1-43EC-BA86-0133823FA1A3}" src="https://github.com/user-attachments/assets/ab0a6feb-54ae-46fa-ac17-551aee1b7d3d" />
 
 Phát hiện và Cắt mặt chính xác (YuNet + Tight Crop):
 
