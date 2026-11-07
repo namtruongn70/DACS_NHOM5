@@ -1,5 +1,7 @@
 #**Tuần 4: Phát triển Giao diện Web (Streamlit), Xử lý File Video & Real-time Webcam**
+
 ##**1. Việc đã làm (Dựa trên Mã nguồn Thực tế):**
+
   **-Xây dựng Giao diện Web Trực quan với Streamlit (app.py):**
 
   +Thiết lập môi trường chạy ứng dụng web cục bộ thông qua thư viện Streamlit (st.set_page_config), tối ưu hóa hiển thị bố cục gọn gàng, hỗ trợ người dùng tương tác kéo thả tệp dễ dàng.
