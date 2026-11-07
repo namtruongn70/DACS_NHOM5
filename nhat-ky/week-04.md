@@ -26,9 +26,11 @@
   +Xây dựng luồng xử lý khung hình thời gian thực (process_video_frame), trong đó ứng dụng sử dụng bộ đệm trượt deque (FRAME_WINDOW_SIZE = 10) để lưu trữ lịch sử 10 frame gần nhất, kết hợp cơ chế ngưỡng nhãn nghiêm ngặt (FAKE_THRESHOLD = 70.0%) để chống báo sai đối với mặt thật, tự động vẽ khung chữ nhật (Đỏ cho Fake, Xanh lá cho Real) và hiển thị banner cảnh báo trực tiếp trên màn hình video call.
 
 #**2. Khó khăn Gặp phải:**
+
   -Xung đột luồng và độ phức tạp kiến trúc (Thread Conflict): Việc tích hợp dồn dập nhiều tính năng nặng (vừa xử lý tệp video dung lượng lớn trên Streamlit, vừa mở đồng thời luồng WebRTC thời gian thực đa luồng qua streamlit-webrtc) khiến cấu trúc mã nguồn trở nên phức tạp, dễ xảy ra tranh chấp tài nguyên bộ nhớ hoặc xung đột vòng lặp giữa các phiên bản giao diện.
 
   -Sụt giảm hiệu năng (FPS thấp) và hiện tượng giật lag: Khi bật camera chạy real-time ở các phiên bản đầu, mô hình phải xử lý liên tục 100% số frame đi qua, kết hợp việc gọi đồng thời YuNet và MobileNetV2 trên mỗi frame khiến CPU/GPU bị quá tải, dẫn đến hiện tượng trễ hình (latency) và tụt tốc độ khung hình nghiêm trọng trên màn hình cuộc gọi.
 
 #**3. Định hướng Tuần tới:**
+
   -Tiến hành tối ưu hóa hiệu năng hệ thống toàn diện bằng các kỹ thuật giảm tải khung hình chuyên sâu (như cải tiến cơ chế Frame Skipping hoặc điều chỉnh độ phân giải đầu vào WebRTC) nhằm đảm bảo tốc độ khung hình luôn mượt mà trong các thử nghiệm thực tế tiếp theo.
