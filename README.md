@@ -21,7 +21,7 @@ Huấn luyện mô hình ResNet50 (PyTorch) với chiến lược 2 giai đoạn
 python train_resnet50.py
 ```
 
-Huấn luyện mô hình cơ sở ban đầu:
+Huấn luyện mô hình MobileNetV2:
 
 ```bash
 python train.py
@@ -55,7 +55,7 @@ Chạy ứng dụng kiểm tra ảnh tĩnh và video tải lên bằng ResNet50:
 streamlit run app_resnet50.py --server.enableCORS=false --server.enableXsrfProtection=false
 ```
 
-Chạy các phiên bản ứng dụng giao diện nguyên mẫu cũ:
+Chạy các phiên bản ứng dụng giao diện nhận biết MobileNetV2:
 
 ```bash
 streamlit run app_videocall.py --server.enableCORS=false --server.enableXsrfProtection=false
