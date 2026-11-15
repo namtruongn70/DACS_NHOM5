@@ -1,6 +1,6 @@
 # DACS_NHOM5
 Hệ thống phát hiện Deepfake chân dung tích hợp Deep Learing
-
+# Link File trọng số: https://drive.google.com/drive/folders/1E04YsyAp2FqAppm_plMPQISIhM4JItUH?usp=sharing
 ## 1. Cài đặt môi trường và thư viện
 
 Mở terminal tại thư mục `deepfake_project`, kích hoạt môi trường ảo (`venv`) và cài đặt các gói cần thiết:
