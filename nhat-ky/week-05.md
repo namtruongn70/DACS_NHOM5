@@ -70,8 +70,7 @@
 | **Tỷ lệ chính xác tổng thể (Test Accuracy)** | 88.53% | 98.24% |
 | **Chỉ số lớp Giả mạo (Fake Class)** | Precision: 0.8832<br>Recall: 0.8828<br>F1-score: 0.8830 | Precision: 0.9910<br>Recall: 0.9729<br>F1-score: 0.9819 |
 | **Chỉ số lớp Thật (Real Class)** | Precision: 0.8872<br>Recall: 0.8876<br>F1-score: 0.8874 | Precision: 0.9744<br>Recall: 0.9915<br>F1-score: 0.9828 |
-| **Ma trận nhầm lẫn (Confusion Matrix)** | <img width="338" height="310" alt="image" src="https://github.com/user-attachments/assets/631e9a00-cf41-4885-acad-9123011413c1" />
- | <img width="357" height="314" alt="image" src="https://github.com/user-attachments/assets/fb80d649-00b4-4772-902b-16ee945ae6d4" />
+| **Ma trận nhầm lẫn (Confusion Matrix)** | <img width="338" height="310" alt="image" src="https://github.com/user-attachments/assets/631e9a00-cf41-4885-acad-9123011413c1" />| <img width="357" height="314" alt="image" src="https://github.com/user-attachments/assets/fb80d649-00b4-4772-902b-16ee945ae6d4" />
  |
 
 ---
