@@ -1,7 +1,7 @@
 ## BÁO CÁO TIẾN ĐỘ TUẦN 6
 
-- **Đề tài:** Hệ thống phát hiện Deepfake chân dung tích hợp Deep Learning (`app_resnet50_webrtc.py`)
-- **Thời gian:** Tuần 6 (Tháng 11/2026)
+- **Đề tài:** Hệ thống phát hiện Deepfake chân dung tích hợp Deep Learning 
+
 
 ---
 
