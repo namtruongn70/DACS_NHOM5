@@ -44,12 +44,12 @@ Trong tuần này, nhóm tập trung huấn luyện và đánh giá mô hình m�
 
 | Tiêu chí | Model mới: **ConvNeXt-Tiny** | **MobileNetV2** | **ResNet50** |
 | :--- | :--- | :--- | :--- |
-| **Test Accuracy** | **99,24%** (`th=0.43`) | **88,53%** | **98,24%** |
-| **Đúng Fake / Lọt Fake (Fake → Real)** | 11.119 đúng / **173** lọt | 9.969 đúng / **1.323** lọt | 10.986 đúng / **306** lọt |
+| **Test Accuracy** | **99,24%**  | **88,53%** | **98,24%** |
+| **Đúng Fake / Lọt Fake (Fake → Real)** | 11.119 đúng / **173** báo nhầm | 9.969 đúng / **1.323** báo nhầm | 10.986 đúng / **306** báo nhầm |
 | **Đúng Real / Báo nhầm Fake (Real → Fake)** | 11.721 đúng / **3** báo nhầm | 10.406 đúng / **1.318** báo nhầm | 11.624 đúng / **100** báo nhầm |
 | **Ảnh / video tĩnh** | Rất cao, ít sai số nhất trên tập test | Khá, tỷ lệ nhầm lẫn còn cao trên cả hai lớp | Cao, ổn định, sai số thấp hơn nhiều so với MobileNetV2 |
 | **Video call real-time (WebRTC)** | Chỉ số test rất cao nhưng dễ lệch miền/bão hòa xác suất khi qua luồng nén video call thực tế | Nhẹ, FPS cao, nhưng độ phân biệt thật/giả yếu hơn | Ổn định tốt trên luồng WebRTC khi kết hợp bộ lọc cửa sổ trượt & chống nháy mặt |
-| **Tốc độ & tài nguyên** | Nặng hơn khi suy luận liên tục từng frame trên luồng trực tiếp | Rất nhẹ, tối ưu cho thiết bị cấu hình thấp | Cân bằng tốt giữa hiệu năng và độ trễ khi bật tối ưu suy luận[cite: 2, 3, 4] |
+| **Tốc độ & tài nguyên** | Nặng hơn khi suy luận liên tục từng frame trên luồng trực tiếp | Rất nhẹ, tối ưu cho thiết bị cấu hình thấp | Cân bằng tốt giữa hiệu năng và độ trễ khi bật tối ưu suy luận |
 
 ---
 
