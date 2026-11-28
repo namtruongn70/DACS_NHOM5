@@ -1,6 +1,6 @@
-# Báo Cáo Tiến Độ Tuần (21/11/2026 – 27/11/2026)
+# Báo Cáo Tiến Độ Tuần 7
 
-- **Dự án:** Hệ thống giám sát & phát hiện Deepfake thời gian thực qua Video Call (WebRTC)
+- **Đề tài:** Hệ thống phát hiện DeepFake chân dung tích hợp DeepLearning
 - **Thành viên thực hiện:** Nguyễn Nam Trường & Ngô Nguyễn Việt Thắng
 
 ---
